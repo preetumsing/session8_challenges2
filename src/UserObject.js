@@ -33,8 +33,8 @@ function UserProfile(props) {
     <div>
       <h1>User Profile</h1>
       <p>{greetingMessage}</p>
-      <p>Age: {age > 18 ? "Adult" : "Minor"}</p>
-      <p>Skills: {formattedSkills.join(', ')}</p> // Incorrect usage
+      <p>Age: {user.age > 18 ? "Adult" : "Minor"}</p>
+      <p>Skills: {formattedSkills.join(', ')}</p>
     </div>
   );
 }
