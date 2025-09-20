@@ -21,7 +21,7 @@ function UserProfile(props) {
   const {firstname, lastname, age, isStudent, skills} = props;
 
   // Step 5 Fix the ternary operator
-  const greetingMessage = `Hello, {user.firstName : user.firstname  'Guest'}!`;
+  const greetingMessage = `Hello, ${user.firstName}!`;
 
   // Step 6 Fix the duplicated method
   // const formattedSkills = formatSkills(user.skills);
