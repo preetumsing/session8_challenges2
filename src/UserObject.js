@@ -18,7 +18,8 @@ function UserProfile(props) {
   const formattedSkills = formatSkills(user.skills);
 
   // Step 4 destructure props properly
-  const [firstname, lastname, age, isStudent, skills] = props;
+  // const [firstname, lastname, age, isStudent, skills] = props;
+  const {firstName, lastName, age, isStudent, skills} = props;
 
   // Step 5 Fix the ternary operator
   const greetingMessage = `Hello, {user.firstName : user.firstname  'Guest'}!`;
